@@ -45,7 +45,23 @@ font-family: revert;
 
 }
 
-
+.formulario
+{  
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #ffffff;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: rgb(143 143 143 / 77%) 0px 2px 4px, rgb(0 0 0 / 94%) 0px 7px 13px -3px, rgb(0 0 0 / 0%) 0px -3px 0px inset;
+}
+.formulario h2{
+  color: #000000;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
 .borda-img  h3:hover{
   color: #4f83d1;
   cursor: pointer;
@@ -54,7 +70,86 @@ font-family: revert;
 {
   display: flex;
 }
+section form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form label{
+  color: #000000;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+form input{
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+  border: solid 2px;
+}
+form input:focus{
+  border-radius: 16px;
+}
+form textarea{
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+  border: solid 2px;
+}
+form textarea:focus{
+  border-radius: 16px;
+}
+form button{
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #050505;
+  color: #000000;
+  transition: all 1s;
+  margin-bottom: 20px;
+}
+form button:hover{
+  background: #3c3b3b;
+  color: #ffffff;
+  border-radius: 16px;
+}
 
+/*Página do Obrigado*/
+
+.main{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+ background: #000000;
+ flex-direction: column;
+}
+.text{
+  font-size: 45px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.paragrafo{
+  color: #000000;
+  margin-bottom: 50px;
+}
+.btn{
+  padding: 15px 55px;
+  background: #000000;
+  text-decoration: none;
+  color: #101026;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.btn:hover{
+  border-radius: 16px;
+}
 
 .portfolio
 {
@@ -928,7 +1023,7 @@ strong {
   BANNER        
 -----------------------------------------*/
 .banner-section {
-  background-image: url('../images/high-angle-woman-cleaning-floors.jpg');
+  background-image: url('../images/plano\ de\ fundo-T.I2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1128,7 +1223,7 @@ strong {
   TESTIMONIAL              
 -----------------------------------------*/
 .testimonial-section {
-  background-image: url('../images/coffe-shop-with-wooden-walls-unfocused.jpg');
+  background-image: url('../images/aula-informatica.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
